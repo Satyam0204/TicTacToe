@@ -245,7 +245,7 @@ button_list.append(bt9)
 s = socket(AF_INET,SOCK_STREAM)
 
 
-s.bind(('192.168.29.77', 5050))
+s.bind(('192.168.87.1', 5050))
 s.listen(5)
 c=None
 
