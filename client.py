@@ -245,7 +245,7 @@ button_list.append(bt9)
     
 s = socket(AF_INET, SOCK_STREAM)
 
-s.connect(('192.168.29.77', 5050))
+s.connect(('192.168.87.1', 5050))
 
 def receive_message():
     while True:
